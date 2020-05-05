@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url:jdbc:postgresql://localhost/camunda
-    username:postgres
-    password:123
-logging:
-  level: debug
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/camunda
+    username: postgres
+    password: 123
+
